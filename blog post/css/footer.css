@@ -1,0 +1,35 @@
+/* display footer */
+#footer {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    'a a'
+    'b b';
+}
+.self {
+  font-size: 1.5em;
+  grid-area: a;
+  justify-self: center;
+}
+.self a {
+  color: black;
+  text-decoration: none;
+}
+.self p {
+  margin: 0;
+  font-style: italic;
+}
+.self a:hover {
+  cursor: pointer;
+  color: rgb(89, 168, 151);
+}
+.social-media {
+  font-size: 2em;
+  padding: 15px;
+  grid-area: b;
+  justify-self: center;
+}
+.social-media a {
+  color: rgb(89, 168, 151);
+}

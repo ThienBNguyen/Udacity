@@ -1,0 +1,60 @@
+/* import css file */
+@import './blog.css';
+@import './footer.css';
+@import './mainblog.css';
+
+/* media queries for index.html */
+@media only screen and (max-width: 320px) {
+  #main {
+    width: 100%;
+    box-shadow: none;
+    margin: none;
+  }
+  .nav-list {
+    font-size: 14px;
+  }
+  .brand {
+    width: 50%;
+  }
+  .self {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  #card {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #main {
+    width: 100%;
+    box-shadow: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #card {
+    grid-template-columns: 1fr;
+  }
+  .nav-list {
+    font-size: 16px;
+  }
+  .card-section {
+    width: 70%;
+  }
+}
+
+/* media queries for blog post */
+@media only screen and (max-width: 1250px) {
+  .bio {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .avatar-post {
+    width: 25%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .avatar-post {
+    width: 25%;
+  }
+}

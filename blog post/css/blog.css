@@ -1,0 +1,26 @@
+/* css for html blog page */
+#blog-post {
+  text-align: center;
+  font-size: 1.5em;
+}
+.author a,
+.bio-link,
+.button-link {
+  text-decoration: none;
+  color: rgb(130, 215, 221);
+}
+.avatar-post {
+  width: 10%;
+}
+.bio {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+}
